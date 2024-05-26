@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fastapi-crud"
+version = "0.1.0"
+description = "FastAPI CRUD example with PostgreSQL"
+authors = ["Guokai Zhao"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.111.0"
+uvicorn = {extras = ["standard"], version = "^0.29.0"}
+sqlalchemy = "^2.0.30"
+psycopg2-binary = "^2.9.9"
+pydantic = "^2.7.1"
+alembic = "^1.13.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
