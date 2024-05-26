@@ -80,3 +80,6 @@ docs/_build/
 target/
 .idea/
 .vscode/
+
+# Environment setting file
+.env
